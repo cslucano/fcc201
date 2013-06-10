@@ -6,7 +6,7 @@ void imprimir(float A[100][100], int filas, int columnas)
   int i, j;
   for(i=0;i<filas;i++){
     for(j=0;j<columnas;j++){
-      printf("%.2f ", A[i][j]);
+      printf("%.4f ", A[i][j]);
     }
     printf("\n");
   }

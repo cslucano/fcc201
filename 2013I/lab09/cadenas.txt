@@ -1,0 +1,15 @@
+1.Escribir un procedimiento que lea una palabra de hasta 20
+caracteres y la escriba como se ve en la figura:
+Entrada: HOLA
+Salida: 
+HOLA
+O  L
+L  O
+ALOH
+
+2.Escribir un programa que verifique si los caracteres estan en orden alfabetico
+ejm. aeg akpx bfgnz
+
+3.Programa que pida una frase y cuente el número de palabras.
+
+4.Realizar un ptograma que pueda traducir una palabras del español al ingles.
