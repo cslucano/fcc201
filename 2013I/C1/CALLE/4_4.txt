@@ -1,0 +1,1 @@
+error para montos mayores a 5000, descuento debe ser de 20%

@@ -1,0 +1,1 @@
+doble salida para circunferencias que se cortan en dos puntos\nerror en salida cuando está dentro de la otra

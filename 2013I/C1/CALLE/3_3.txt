@@ -1,0 +1,3 @@
+falla con:
+1 2 2
+debería ser Isósceles
