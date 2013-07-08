@@ -1,0 +1,2 @@
+1) error en el algoritmo
+2) compila pero no resuelve el problema

@@ -1,0 +1,4 @@
+1) no compila
+2) no resuelve el problema
+3) algoritmo errado
+

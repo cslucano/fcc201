@@ -1,0 +1,5 @@
+1) lee bien
+2) no  ordena como se pide
+obs.
+1) hacer operaciones entre matrice para hallar la suma de las columnas
+2) luego ordenar el vector resultante

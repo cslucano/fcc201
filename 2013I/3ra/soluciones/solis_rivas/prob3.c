@@ -13,6 +13,7 @@ void leer(float A[20][20], int m, int n)
 }
 int main(){
    float A[20][20];
+   float S[20][20];
    int m, n;
      scanf("%d %d", &m, &n);
    int i,j;
