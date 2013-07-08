@@ -1,0 +1,3 @@
+Funciona, para el caso general con error al final de la salida. Revisar el algoritmo.
+El código no es genérico falla para "MARIO     VARGAS        LLOSA".
+Mejore su identación(sangrado o sangría), esos for sin llaves. No programe para Ud. solo.

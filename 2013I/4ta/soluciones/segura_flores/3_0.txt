@@ -1,0 +1,3 @@
+mem3.c: In function ‘devolver’:
+mem3.c:27:10: error: ‘cad’ undeclared (first use in this function)
+mem3.c:27:10: note: each undeclared identifier is reported only once for each function it appears in

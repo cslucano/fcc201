@@ -1,0 +1,2 @@
+Implementación buena, hay que mejorar, sobre todo la indentación(sangrado, sangría). 
+Error en la implementación de borrar.

@@ -19,31 +19,43 @@ int main() {
   n=strlen(cad);
   m=strlen(cad);
   p=strlen(cad);
-  ptr= malloc(n*sizeof(char));
-  ptr1= malloc(m*sizeof(char));
-  ptr2= malloc(p*sizeof(char));
-  strcpy(ptr,cad);
-  strcpy(ptr1,cad1);
-  strcpy(ptr2,cad2);
+//  ptr= malloc(n*sizeof(char));
+//  ptr1= malloc(m*sizeof(char));
+//  ptr2= malloc(p*sizeof(char));
+//  strcpy(ptr,cad);
+//  strcpy(ptr1,cad1);
+//  strcpy(ptr2,cad2);
 
+  ptr = cad;
+  ptr1 = cad1;
+  ptr2 = cad2;
+i=0;
   while( *(ptr+i)!='\0') {
-     for(j=0;j<3;j++) {
-         scanf("%c",*(ptr+i));
+     while(i<3) {
+         printf("%c",*(ptr+i));
    i++;
     }
+   i++;
+    }
+i=0;
    while( *(ptr1+i)!='\0') {
-     for(j=0;j<3;j++) {
-         scanf("%c",*(ptr1+i));
+     while(i<3) {
+         printf("%c",*(ptr1+i));
    i++;
     }
+   i++;
+    }
+i=0;
    while( *(ptr2+i)!='\0') {
-     for(j=0;j<3;j++) {
-         scanf("%c",*(ptr2+i));
+     while(i<3) {
+         printf("%c",*(ptr2+i));
    i++;
     }
-  free(cad);
-  free(cad1);
-  free(cad2);
+   i++;
+   }
+//  free(cad);
+//  free(cad1);
+//  free(cad2);
 
   
 return 0;

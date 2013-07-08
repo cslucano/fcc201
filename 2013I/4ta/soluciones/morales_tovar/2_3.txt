@@ -1,0 +1,2 @@
+No realiza lo que se pide, complia, ejecuta ambas funciones;
+Buena implementación, mal resultado. Mejora la lógica de tu implementación.

@@ -1,0 +1,2 @@
+obs,
+  pudiste haber incrementado tu puntero aux 3 unidades, falta más lógica de código para solucionar el problema.

@@ -1,0 +1,3 @@
+Hay que ser más conspicuos para leer los errores y las advertencias(warnings) de compilador. 
+Su implementación fué facil de hacerla compilar, hay que revisar la lógica de la implementación.
+No hace lo que se pide.

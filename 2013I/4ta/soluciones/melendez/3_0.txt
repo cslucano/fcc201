@@ -1,0 +1,1 @@
+No realiza lo que se pide. Error en la ejecución (core dump)

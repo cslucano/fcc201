@@ -55,7 +55,7 @@ void copiar(char origen[TAM],int inicio,int longitud)
   for(i=inicio;i<inicio+longitud;i++)
   {
    resultado[i]=origen[i];
-   printf("%s",origen[i]);
+   printf("%s",origen);
   }
 }
 
@@ -63,7 +63,7 @@ void borrar(char origen[TAM],int inicio,int longitud)
 
 {
 
-  int i,n;
+  int i,j,n;
   n=longitud-inicio+1;
   char resultado[n];
 
@@ -72,7 +72,7 @@ void borrar(char origen[TAM],int inicio,int longitud)
     if(j!=i)
      {
       resultado[j]=origen[j];
-      printf("%s",origen[j]);
+      printf("%s",origen);
      }
   }
 

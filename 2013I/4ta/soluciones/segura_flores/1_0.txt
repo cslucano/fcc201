@@ -1,0 +1,8 @@
+mem1.c: In function ‘main’:
+mem1.c:31:18: error: expected expression before ‘Carta’
+mem1.c:33:18: error: expected expression before ‘Carta’
+mem1.c:34:12: error: ‘valor’ undeclared (first use in this function)
+mem1.c:34:12: note: each undeclared identifier is reported only once for each function it appears in
+mem1.c:35:19: error: expected expression before ‘Carta’
+mem1.c:35:19: error: too few arguments to function ‘ordena_baraja’
+mem1.c:17:6: note: declared here

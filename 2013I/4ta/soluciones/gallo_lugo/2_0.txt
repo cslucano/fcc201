@@ -1,0 +1,7 @@
+prob2.c:9:3: warning: useless storage class specifier in empty declaration [enabled by default]
+prob2.c:11:27: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+prob2.c:12:20: error: expected ‘{’ before ‘)’ token
+prob2.c:49:27: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+prob2.c: In function ‘borrar’:
+prob2.c:58:1: error: number of arguments doesn’t match prototype
+prob2.c:12:6: error: prototype declaration
