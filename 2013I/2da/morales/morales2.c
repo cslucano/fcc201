@@ -4,7 +4,8 @@
 
 int main(){
 	int n, i, a=1;
-	n = (f-1)*2
+  int f= 7;
+	n = (f-1)*2;
 	while (a <= n){	
 		a += 2;
 		i = a-2;

@@ -1,9 +1,10 @@
 #include<stdio.h>
  int main (){
- int 
+ int m,n,i,j,p,q,r,s;
   printf("ingrese el numero de filas del rombo");
-  scanf("%d",m);
- if(n%2!=0)
+  scanf("%d",&m);
+ if(m%2!=0)
+ {
    n=(m+1)/2;
 
    for(j=n-1;j>=1;j--){
@@ -22,7 +23,7 @@
     printf(" ");
      printf("\n");
   }
- else
+ else{
  printf("el numero de fijas ke puso no pertenece a un rombo");
  }
  return 0;

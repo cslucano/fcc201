@@ -2,7 +2,9 @@
 
 int fun(int n){
 	
+	int r;
 	if(n%2!=0)
+  {
 	int y1,y2,y3,y4,r,x;
 		
 		y1<=x+ (n+1)/2;
@@ -11,6 +13,7 @@ int fun(int n){
 		y4<=-x+(n+1)/2;
 		
 		r=y1&&y2&&y2&&y4;
+  }
 
 		return r;
 }

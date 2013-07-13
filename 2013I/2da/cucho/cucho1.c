@@ -20,7 +20,7 @@ int main(){
        printf("Insertar la Cantidad de Naranjas:\n");
        scanf("%d",&Cant); 
       if (Cant>10){
-         printf("El precio a pagar es:\n %.3lf",descuento((double)Pv1));
+         printf("El precio a pagar es:\n %.3f",Descuento((double)Pv1));
          }
        else{
            printf("El precio a pagar es:\n %f",Pv1);

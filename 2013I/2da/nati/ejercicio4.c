@@ -10,7 +10,7 @@ return 0;
 }
 
 int cakenumber(x){
-cake number = (1/6*(x*x*x + 5*x +6))
+int cake number = (1/6*(x*x*x + 5*x +6));
 if(n>=1){
 for(i=0;i<=n;i++){
 printf("%d ",cakenumber(i));

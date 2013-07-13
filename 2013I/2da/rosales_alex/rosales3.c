@@ -7,8 +7,8 @@
    n=(4*i*i)/(4*i*i+1);
     suma+=n;
     i++;
-   p=CONST-n;
-    j++
+   p=PI-n;
+    j++;
    }while (p<0.001);
   printf("la cantidad de terminos es %d \n",j);
   return 0;

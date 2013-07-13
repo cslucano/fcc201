@@ -1,6 +1,6 @@
 #include<stdio.h>
  int main (){
- int n,m;
+ int n,m,i;
  printf("ingresar la cantida de terminos del cake number");
  scanf("%d",&n);
    for(i=1;i<=n;i++){

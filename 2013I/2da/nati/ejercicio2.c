@@ -36,6 +36,6 @@ int main(int argc, char *argv[])
       Contador++;
       printf("\n");
     }
-  sistema("PAUSE");
+  //sistema("PAUSE");
   return 0;
 }

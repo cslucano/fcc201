@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 int main(){
 int n=2;
 int x=1;
@@ -8,8 +9,8 @@ float a = 1;
     {
     a = a * ( (n*n) / ( x * (x + 2) ) );
     x += 2;
-    }cout << "el valor es" << a << b;
-    cout << "el valor es" << M_PI/2 << b;
+    cout << "el valor es" << a ;
+    //cout << "el valor es" << M_PI/2 << b;
     return 0;
     }
 return 0;
