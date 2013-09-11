@@ -1,0 +1,3 @@
+gcc  hello.c -o hello
+gcc opeent.c -o opeent
+gcc opereal.c -o opereal -lm
