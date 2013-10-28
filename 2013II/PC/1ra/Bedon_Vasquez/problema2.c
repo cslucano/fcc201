@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
     int a,b,c,d,n,m,p;
@@ -20,6 +19,5 @@ int main()
     m=n/100;
     p=(m+1)*100;
     printf("el numero redondeado a la centena mas proxima es %d ",p);
-getch();
 return 0;    
     }

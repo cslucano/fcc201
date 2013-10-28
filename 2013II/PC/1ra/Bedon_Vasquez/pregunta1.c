@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
     int  h,m,n;
@@ -18,6 +17,5 @@ if(((h>0)&&(h<25))&&((m>0)&&(m<61)))
  else
  printf("la hora en formato de 12 horas es : %d : %d",h,m);
  
-getch();
 return 0;    
     }

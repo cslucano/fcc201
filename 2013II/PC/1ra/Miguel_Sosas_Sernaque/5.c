@@ -4,7 +4,7 @@ int main()
 {  
   int numero ;
   printf("Ingrese el año entre 1000 y 2000: ");
-  scanf("%d",&a)
+  scanf("%d",&numero)
   while (numero != 0)
 {
    if ( numero >=1000)

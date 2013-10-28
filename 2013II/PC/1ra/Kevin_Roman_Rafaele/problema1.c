@@ -1,10 +1,10 @@
 #include<stdio.h>
 
-int main
+int main()
 {
 	char h1, h2, s, m1, m2;
 	printf("Escriba la hora\n");
-	scanf("%c""%c""%c""%c""%c",&h1,&h2,&s,&m1,&m2);
+	scanf("%c %c %c %c %c",&h1,&h2,&s,&m1,&m2);
 	if(h1==0)
 	printf("%c%c:%c%c AM\n", h1, h2, m1, m2);
 	else

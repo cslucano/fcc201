@@ -2,15 +2,15 @@
 
 int main()
 {
-	int año, mes, a, b, c, d;
+	int ano, mes, a, b, c, d;
 	printf("Ingrese el año\n");	
-	scanf("%d", &año);
+	scanf("%d", &ano);
 	printf("Ingrese el numero de mes\n");
 	scanf("%d", &mes);
 	a=mes%2;
-	b=año%400;	
-	c=año%100;
-	d=año%4;
+	b=ano%400;	
+	c=ano%100;
+	d=ano%4;
 	if(a==1)
 	printf("El mes tiene 31 dias\n");
 	else

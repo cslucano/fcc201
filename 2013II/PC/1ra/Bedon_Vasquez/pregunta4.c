@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
     int anio,a,b,c,d,r,p,n,i,j,m,q;
@@ -29,6 +28,5 @@ int main()
    for(q=1;q<=d;q++)
    printf("I"); 
     
-getch();
 return 0;    
     }

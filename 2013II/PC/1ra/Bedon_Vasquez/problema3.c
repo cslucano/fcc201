@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
   int mes,anio;  
@@ -23,6 +22,5 @@ int main()
     else 
     printf("el mes tiene 31 dias \n");
 } 
-getch();
 return 0;    
     }
