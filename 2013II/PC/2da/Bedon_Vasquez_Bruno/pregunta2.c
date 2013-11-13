@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<math.h>
-#include<conio.h>
 int main()
 {  
  float t;
@@ -11,7 +10,6 @@ t=4.0;
 
 }while(t>=2);
 printf("el valor de la raiz es : %f",t);
-getch();
 return 0;
 	
 }

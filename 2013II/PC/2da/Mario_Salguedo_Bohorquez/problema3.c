@@ -15,9 +15,9 @@ int main(void)
  derivada = 2.0*(x-Pi);
  x = x - 0.01*derivada;
  }
- while(fabs(0.01*derivada)>=0.00001);
+ while(fabs(0.01*derivada)>=0.00000001);
 
- printf("%f.\n", (x-Pi)*(x-Pi)+10.0);
+ printf("%f, %f.\n", x, (x-Pi)*(x-Pi)+10.0);
 
 return 0;
 }

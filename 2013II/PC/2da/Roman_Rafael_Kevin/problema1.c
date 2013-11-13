@@ -12,6 +12,7 @@ int main()
 		t*=3;
 		pi=pi-i/(t*(2*k+1));
 		k++;
+    printf("%f\n", pi);
 		i=0-i;}
 	pi=2*1,732050808*pi;
 	printf("pi se aproxima a %f", pi);

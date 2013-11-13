@@ -18,7 +18,7 @@ do{
 
 printf("el valor del k-esimo termino para phi es :%f",pi);
 	
-}while((3.14-pi)>0.00001)
+}while((3.14-pi)>0.00001);
 return 0;
 }
 

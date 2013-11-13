@@ -3,7 +3,7 @@
 
 int main()
 {
-float x=2,m,a=0;
+float x=4,m,a=0;
 
 do{
 m=((pow(x,3)-(10*x)+1)/(3*pow(x,2)-10));
