@@ -22,7 +22,7 @@ int main(){
 	int i, j;
 	i=0; j=1;
 	do{
-	printf ("Ingrese el %d-esimo termino: ", j);
+	//printf ("Ingrese el %d-esimo termino: ", j);
 	scanf("%d", &M[i]);
 	i++;
 	j++;

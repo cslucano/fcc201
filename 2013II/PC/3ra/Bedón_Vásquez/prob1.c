@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>
 
 int main()
 {   int i,j,k,n,a,repetido,contador=0;
-    int arreglo[1000];
+    int arreglo[1000000];
     printf("introduzca el tamaño del arreglo :");
     scanf("%d",&n);
     printf("introduzca los elementos del arreglo : \n");
@@ -26,6 +26,6 @@ int main()
      printf("el elemento que se repite es %d ",repetido);
      else 
      printf("ningun elemento se repite");
-    getch();
+    getchar();
     return 0;
     }

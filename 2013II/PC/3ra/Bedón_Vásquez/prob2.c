@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>
 
 int main()
 {   int i,j,m,n,contador=0;
@@ -23,6 +23,6 @@ if(contador>0)
 printf("el elemento si se encuentra en el arreglo\n");
 else
 printf("el elemento no se encuentra en el arreglo \n");
-    getch();
+    getchar();
     return 0;
     }

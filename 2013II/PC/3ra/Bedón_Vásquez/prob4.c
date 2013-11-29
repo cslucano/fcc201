@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>
 int EliminarDuplicados( int arr[],int n);
 int EliminarDuplicados( int arr[],int n)
 {
@@ -17,11 +17,11 @@ v[ans++]=arr[i];
         int arr[1000];
         int n,j;
         printf("introduzca el tamaño del arreglo:");
-        scanf("d",&n);
+        scanf("%d",&n);
         printf("introduzca los elementos del arreglo :");
         for(j=0;j<n;j++)
         scanf("%d",&arr[j]);
-        printf("la cantidad de elementos no duplicados es : %d ",EliminarDuplicados( arr[1000],n));
-        getch();
+        printf("la cantidad de elementos no duplicados es : %d ",EliminarDuplicados( arr,n));
+        getchar();
         return 0;
         }

@@ -11,7 +11,7 @@ mayor1=a[i];
 }
 
 for(k=0;k<tamano;k++){
-if(mayor1=a[k])
+if(mayor1==a[k])
 cont++;
 }
 

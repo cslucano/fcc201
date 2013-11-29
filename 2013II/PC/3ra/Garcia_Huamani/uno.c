@@ -4,7 +4,7 @@
 int main(){
 int a[1000000];
     int cont=0,i,j,m,numero;
-    printf("ingrese los numeros de nuestro arreglo");
+    printf("ingrese los numeros de nuestro arreglo\n");
     for(m=0;m<1000000;m++){
     scanf("%d",&a[m]);
     }
