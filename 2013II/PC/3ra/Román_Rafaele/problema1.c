@@ -14,7 +14,7 @@ void repite(int M[1000000]){
 			j++;
 		}while(n>0&&j<999999);
 	}while(n>0&&i<999999);
-	if(n=0) printf("El primer numero que se repite es %d", x);
+	if(n==0) printf("El primer numero que se repite es %d", x);
 	else printf("Ninguno se repite");
 }
 
@@ -23,7 +23,7 @@ int main(){
 	int i, j;
 	i=0; j=1;
 	do{
-	printf ("Ingrese el %d-esimo termino: ", j);
+	//printf ("Ingrese el %d-esimo termino: ", j);
 	scanf("%d", &M[i]);
 	i++;
 	j++;

@@ -27,7 +27,7 @@ void ElqueFalta(int vector[]){
 			if(numero==vector[i])
 			j++;		
 		}
-	if(i!=j) printf("") 
+	if(i!=j) printf(" ") ;
 	}
 
 }
@@ -85,7 +85,7 @@ printf("la cantidad no duplicada es:%d\n",tamano-contador);
 
 
 void main(){
-int v[10]={1,2,3,4,5,7,7,8,9,0};
+int v[10]={1,1,1,2,2,3,10,10,11,11};
 int n=10;
  
 //

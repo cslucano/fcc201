@@ -21,9 +21,9 @@ return c;
 }
 
 int main(){
-int arreglo[]={1,4,5,1,3,5};//tiene 6 elementos
-int nuevo[6];//reservamos memoria para 6 elementos, aunque no se usen todos
-int max = SacarRepetidos(arreglo, nuevo, 6);
+int arreglo[10]={1,1,1,2,3,3,10,10,11,11};//tiene 6 elementos
+int nuevo[10];//reservamos memoria para 6 elementos, aunque no se usen todos
+int max = SacarRepetidos(arreglo, nuevo, 10);
 int i;
 for (i=0; i < max; i++){
 printf("Valor: %i \n" ,nuevo[i]);

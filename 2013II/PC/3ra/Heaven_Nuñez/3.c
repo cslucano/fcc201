@@ -10,12 +10,12 @@ int main()
  printf("introdusca los elementos del array:\n");
  for(i=0;i<N;i++)
    scanf("%d",&a[i]);
- printf("la suma es:\n",suma(a,N));
+ printf("la suma es %d:\n",suma(a,N));
  return 0;
 }
 int suma(int a[],int N)
 {
- int i,x,aux,suma,h;
+ int i,x,aux,suma=0,h;
  for(i=0;i<N;i++)
    for(x=i+1;x<N;x++)
      {
