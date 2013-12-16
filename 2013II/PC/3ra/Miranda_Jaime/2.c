@@ -1,15 +1,17 @@
-#include <stdio.h>
-#include <math.h>
-
-double f( double x ){return x*x*x-10*x+1;}
-double ff( double x ){return 3*x*x-10;}
-
+#include<stdio.h>
 int main()
 {
-	double x = 4;
-	while( f( x ) > 0.0001  )
+	int numb[ 1000001 ]={};
+	int n , a; // a es el número cualquiera
+	
+	int v[ 1000001 ],i;
+	scanf("%d",&n);	
+	for( i = 0 ; i < n ; i++ )
 	{
-		x = x - f(x)/ff(x);
+		scanf("%d",&v[i]);
+		numb[ v[i] ] = 1;	
 	}
-	printf("%lf\n",x);
+	scanf("%d",&a); // numero cualquiera
+	if( numb[ a ] ) printf("Si esta\n");
+	else printf("No esta\n");
 }
