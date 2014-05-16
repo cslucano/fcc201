@@ -15,6 +15,5 @@ int main()
  cif(i,*p);
  for(i=0;i=5;i++)
  {printf("%c",c[i]);}        }
-  system("PAUSE");	
   return 0;
 }
