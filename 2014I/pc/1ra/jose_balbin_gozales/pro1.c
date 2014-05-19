@@ -12,6 +12,6 @@ int main(){
        x=y;
     }
 
-    printf("el minimo valo local es :%.5f\n",y);
+    printf("el minimo valo local es :%.5f\n",6*y);
     return 0;
 }

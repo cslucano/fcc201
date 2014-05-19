@@ -6,7 +6,7 @@ int main() {
 
 	int n;
 
-	n>0;
+	n=100;
 
 	float i;
 

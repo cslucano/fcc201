@@ -1,6 +1,4 @@
 #include <stdio.h>
-#define i 7
-#define j 7
 
 int main()
 {

@@ -6,8 +6,8 @@ int main(){
    float s;
 scanf("%d",&n);
 while(i<=n){
-s= (float)(2*pow(-1,i)*pow(3,(1/2)-i))/(2*i+1);
-
+s+= (float)(2*pow(-1,i)*pow(3,(1/2)-i))/(2*i+1);
+i++;
 }
 printf("%.5f",s);
 return 0;

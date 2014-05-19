@@ -13,6 +13,6 @@ int main()
          f=pow(3,(1/2)-i);
          pi+=signo*2*f/j;
     }
-    printf("pi es igual a :%f\n",pi);
+    printf("pi es igual a :%f\n",2*pi);
     return 0;
 }
