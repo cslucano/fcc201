@@ -1,0 +1,6 @@
+primera practica alumno 1 es 12.00
+primera practica alumno 2 es 15.00
+primera practica alumno 3 es 11.00
+primera practica alumno 4 es 17.00
+primera practica alumno 5 es 13.00
+promedio de notas primera practica 13.60
