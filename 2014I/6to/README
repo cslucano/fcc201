@@ -1,0 +1,16 @@
+gcc estadistica.c
+
+gcc estadistica1.c
+./a.out
+
+gcc estadistica2.c
+gcc estadistica3.c
+./a.out
+./a.out < notas_practica1.txt
+./a.out < notas_practica1.txt > resultado.txt
+
+gcc estadistica4.c
+./a.out
+./a.out < notas_practicas.txt
+./a.out < notas_practicas.txt > resultado.txt
+
