@@ -1,3 +1,5 @@
+// compilar con:
+// g++ mergesort.c -o merge
 #include <stdio.h>
 #include <stdlib.h>
 
