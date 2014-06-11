@@ -19,9 +19,9 @@ int r;
 int main () 
 {
     int n, r;
-    r = S (n);
-    printf ( " Para n igual a :\n",n); 
     scanf ( "%d", &n);
+    printf ( " Para n igual a :%d\n",n); 
+    r = S (n);
     printf ( " El valor de la suma de los n numeros enteros es: %d\n",r); 
     return 0;  
 }

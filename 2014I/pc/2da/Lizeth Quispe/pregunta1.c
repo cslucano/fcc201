@@ -9,5 +9,6 @@ for(i=0;i<10;i++){
 	c=2*b/(2*i+1);
 	pi=pi+c;
 }
+printf("pi: %f", pi);
 return 0;
 }

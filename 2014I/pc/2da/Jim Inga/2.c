@@ -3,7 +3,7 @@
 //# define n 10
 
 int main(){
-printf("%d",sumatoria(4));
+printf("%d",sumatoria(5));
 return ;
 }
 
