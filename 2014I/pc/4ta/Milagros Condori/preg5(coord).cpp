@@ -22,7 +22,7 @@ int main()
 	printf("**\nPrimer punto**\n");
 	printf("Coordenada X (m): \n");
 	scanf("%f",&p1.coord_x);
-	printf("Coordenada X (m): \n");
+	printf("Coordenada Y (m): \n");
 	scanf("%f",&p1.coord_y);
 	printf("Masa del cuerpo en esta posicion(Kg): \n");
 	printf("considerar masas grandes\n");

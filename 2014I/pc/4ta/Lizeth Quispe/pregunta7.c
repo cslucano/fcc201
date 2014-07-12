@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(){
-	char palabra[]="ma";
+	char palabra[]="ma asd asfsdfd";
 	
 	int i,j,a=0,l=0;
 	int grama;

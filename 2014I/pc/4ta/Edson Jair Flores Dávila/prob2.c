@@ -15,7 +15,7 @@ int main(){
    float f;
    float *p;
    p=&f;
-   pritf("ingrese numero flotante:");
+   printf("ingrese numero flotante:");
    scanf("%f",&f);
    obtenerflotante(p);
    printf("el numero es: %.2f \n",*p);
