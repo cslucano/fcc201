@@ -28,6 +28,7 @@ int SumadeDosMasGrandes(int *p,int n){
   return aux1+aux2;
 }
 int main(){
+  srand(time(NULL));
   int v[100];
   int tam=10;
   int *p;

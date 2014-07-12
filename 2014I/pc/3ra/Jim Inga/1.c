@@ -1,11 +1,12 @@
 #include<stdio.h>
-#define t 100
+#define t 10
 
 int main(){
 double m[t];
 int i,j;
 for(i=0;i<t;i++){
 	m[i]=rand()%100;
+printf("%.2lf\n",m[i]);
 }
 
 for(i=0;i<t;i++){

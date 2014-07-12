@@ -23,7 +23,8 @@ int arr[100];
 	printf("tamaño del arreglo:  \n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
-	arr[i]=rand()%10;
+	  arr[i]=rand()%10;
+     printf("%d\n",arr[i]);
 		}	
 	eliminarduplicados(arr,n);
 

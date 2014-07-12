@@ -2,7 +2,7 @@
 #define TAM 1000000
 int sumadedosmasgrandes(int *V,int x);
 int main(){
-int A[TAM]={1,4,3,4,5,6,7,8,9,10};
+int A[TAM]={1,4,3,4,5324820,6,7,8,9,1220};
 
 printf("la suma de los enteros mas grandes del arreglo es %d\n",sumadedosmasgrandes(A,10));
 

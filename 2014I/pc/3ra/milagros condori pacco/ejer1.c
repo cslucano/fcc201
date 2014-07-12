@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
-#define TAM 1000000
+#define TAM 4
 int main(){
    
    int n,i,j,cont;
@@ -10,13 +10,13 @@ int main(){
   
   
    srand(time(NULL));
-    for(i = 1; i <1000001; i++)
+    for(i = 1; i <TAM; i++)
     {
         
-           M[i]= 1+rand()%999999;
+           M[i]= 1+rand()%(TAM-1);
            printf("%d ",M[i]);
         }
-     for(j=1;j<1000001;j++){
+     for(j=1;j<TAM;j++){
            cont=0;
            if(M[i]==j){
               cont++;

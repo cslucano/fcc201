@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
-#define TAM 1000000
+#define TAM 4
 int main(){
 int v[TAM];
 int i,j,aux,cont=0;

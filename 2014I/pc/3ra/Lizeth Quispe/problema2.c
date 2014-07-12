@@ -1,5 +1,10 @@
 #include <stdio.h>
 #define TAM 10
+
+void imprimir(int a[], int n);
+void ordenar (int a[], int n);
+void intercambio(int* x, int* y);
+
 int main(){
 	int arreglo[TAM]={2,1,5,6,7,3,8,9,3,10};
 	int i,j;

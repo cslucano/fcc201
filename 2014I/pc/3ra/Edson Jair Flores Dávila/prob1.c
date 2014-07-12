@@ -28,6 +28,7 @@ void entero_repite(int v[100],int n){
   }
 }
 int main(){
+  srand(time(NULL));
   int v[100];
   int tam=10;
   ingresar(v,tam);

@@ -2,7 +2,7 @@
 #define TAM 1000000
 int busqueda(int V[],int n);
 int main(){
-int A[TAM]={6,2,3,4,5,5,1,7,8,9};
+int A[TAM]={6,2,3,4,5,6,1,7,8,9};
 
 printf("el numero repetido en el arreglo es %d\n",busqueda(A,10));
 
